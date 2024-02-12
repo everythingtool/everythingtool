@@ -1,0 +1,201 @@
+#header-container {
+    background-color: #3A0CA3;
+    position: relative;
+    z-index: 1;
+}
+
+#all-site {
+    background-color: #e2eafc;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#footer-style {
+    margin-top: auto;
+    background-color: #3A0CA3;
+    position: relative;
+    z-index: 1;
+}
+
+#home-h1 {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 175px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+#home-h2 {
+    color: #111;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0 0 72px;
+    text-align: center;
+}
+
+#home-p {
+    color: #685206;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 0 24px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+#error-container {
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 42.5%;
+    left: 50%;
+    padding: 80px 50px;
+    z-index: 0;
+}
+
+#my-container {
+    background-color: #C1D3FE;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 42.5%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+    z-index: 0;
+}
+
+#dictionary-search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#dictionary-search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #EDF2FB;
+}
+
+#dictionary-search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #3A0CA3;
+    border: none;
+    outline: none;
+    color: #4CC9F0;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#dictionary-result {
+    position: relative;
+}
+
+#dictionary-result h3 {
+    font-size: 30px;
+    color: #1f194c;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#dictionary-result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#dictionary-result .details {
+    display: flex;
+    gap: 10px;
+    color: #EDF2FB;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.word-meaning {
+    color: #575a7b;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.word-example {
+    color: #1f194c;
+    font-style: italic;
+    border-left: 5px solid #7209B7;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.error {
+    margin-top: 80px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.quote-generator {
+    width: 100%;
+    display: flex;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+.quote-generator button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #3A0CA3;
+    border: none;
+    outline: none;
+    color: #4CC9F0;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#randomquote-result {
+    position: relative;
+}
+
+#randomquote-result h3 {
+    font-size: 30px;
+    color: #1f194c;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#randomquote-result .name {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#randomquote-result .content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#randomquote-result p {
+    color: #1f194c;
+    font-style: italic;
+    font-family: "Lucida Grande", sans-serif;
+}
+
+#currency-row {
+    margin-bottom: 30px;
+}
+
+#error-quote {
+    margin-bottom: 50px;
+}
